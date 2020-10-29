@@ -20,7 +20,7 @@
 
 @media screen and (max-width: 320px) {
   .intro__container {
-    width: calc(288/320*100%);;
+    width: calc(288/320*100%);
     max-width: 288px;
   }
 }
