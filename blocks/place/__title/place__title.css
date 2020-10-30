@@ -1,5 +1,5 @@
 .place__title {
-  margin: 0 0 40px;
+  margin: 0 0 48px;
   font-size: 72px;
   line-height: calc(72 / 76);
 }
@@ -16,7 +16,8 @@
   .place__title {
     font-size: 32px;
     line-height: calc(35 / 32);
-    margin-bottom: 32px;
+    margin:0 16px 32px;
+    max-width: calc(288/320*100%);
   }
 }
 
