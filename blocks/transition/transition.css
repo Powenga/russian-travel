@@ -1,6 +1,4 @@
 .transition:hover {
   opacity: .8;
-  -webkit-transition: opacity 0.8s ease-in 0s;
-  -o-transition: opacity 0.8s ease-in 0s;
   transition: opacity 0.8s ease-in 0s;
 }
