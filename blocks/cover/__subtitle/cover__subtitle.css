@@ -10,13 +10,6 @@
   z-index: 1;
 }
 
-@media screen and (max-width: 720px) {
-  .cover__subtitle {
-    line-height: calc(22 / 18);
-    font-size: 18px;
-  }
-}
-
 @media screen and (max-width: 425px) {
   .cover__subtitle {
     line-height: calc(16 / 14);

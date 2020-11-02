@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   max-width: 1184px;
-  width: 92%;;
+  width: 92%;
 }
 
 @media screen and (max-width: 1024px) {
@@ -22,7 +22,7 @@
 
 @media screen and (max-width: 320px) {
   .header {
-    width: calc(288/320*100%);;
+    width: calc(288/320*100%);
     max-width: 288px;
   }
 }
