@@ -1,11 +1,23 @@
 .cover__link {
   display: block;
   position: relative;
-  padding-bottom: calc(740 / 1184 * 100%);
+  padding: calc(740 / 1184 * 100% / 2 - 248px / 2) 0;
   background-image: url(../../../images/cover-trains.jpg);
   background-position: center center;
   background-size: cover;
+  text-decoration: none;
+}
 
+@media screen and (max-width: 720px) {
+  .cover__link {
+    padding: calc(740 / 1184 * 100% / 2 - 253px / 2) 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .cover__link {
+    padding: calc(740 / 1184 * 100% / 2 - 134px / 2) 0;
+  }
 }
 
 .cover__link::before {
