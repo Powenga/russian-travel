@@ -20,16 +20,14 @@
 @media screen and (max-width: 768px) {
   .photo-grid__container {
     gap: 12px 16px;
-    max-width: 720px;
     width: calc(720/768*100%);
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .photo-grid__container {
     gap: 9px;
     max-width: 288px;
-    width: calc(288/320*100%);
   }
 }
 

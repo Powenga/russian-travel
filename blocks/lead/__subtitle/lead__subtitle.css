@@ -8,6 +8,7 @@
 
 @media screen and (max-width: 1024px) {
   .lead__subtitle {
+    font-size: calc(15px + 1.5vw);
     margin-bottom: 55px;
   }
 }

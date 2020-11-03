@@ -8,9 +8,10 @@
   text-decoration: none;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 768px) {
   .cover__link {
-    padding: calc(740 / 1184 * 100% / 2 - 253px / 2) 0;
+    padding: calc(740 / 1184 * 100% / 2 - 255 / 768 * 100% / 2) 0;
+
   }
 }
 
